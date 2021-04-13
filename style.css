@@ -1,0 +1,125 @@
+.c1 {
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid #121211;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+}
+
+.C2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    left: 10%;
+}
+
+#error {
+    height: 20%;
+    margin-top: 10px;
+    color: #ff0055;
+}
+
+#button {
+    width: 40%;
+    height: 40px;
+    background-color: #008EFF;
+    box-shadow: 1px 1px 2px #121212;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.c0 {
+    text-align: center;
+    border-radius: 25px;
+    width: 40%;
+    height: 50%;
+    background-color: #ffffff;
+    border: 3px solid #FFFeFF;
+    box-shadow: 3px 3px 5px #000;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    text-align: center;
+}
+
+.eye {
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+    right: 5px;
+}
+
+::placeholder {
+    color: #121212;
+    font-size: 18sp;
+    text-align: center;
+    font-weight: 400;
+}
+
+a {
+    font-size: 16px;
+    color: #353535;
+}
+
+.Navigation {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 8%;
+    padding: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: #008EFF;
+}
+
+li {
+    display: inline;
+    top: 40%;
+    margin-left: 50px;
+}
+
+ul {
+    position: absolute;
+    right: 10%;
+}
+
+.niv_a {
+    color: #ffffff;
+    padding-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.niv_a:hover {
+    color: aqua;
+}
+
+.click {
+    text-decoration: none;
+}

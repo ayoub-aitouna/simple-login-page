@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="Script.js"></script>
+    <title>idex</title>
+
+</head>
+
+<body>
+    <div class="Navigation">
+        <ul>
+            <li><a class="niv_a" href="home.html">Home</a> </li>
+            <li><a class="niv_a" href="Index.html">Sing in</a> </li>
+            <li><a class="niv_a" href="about.html">About</a> </li>
+            <li><a class="niv_a" href="download.html">Download</a> </li>
+        </ul>
+    </div>
+    <div class="c0 center">
+
+        <div class="center">
+            <img src="https://freepikpsd.com/wp-content/uploads/2019/10/logo-designer-png-1-Transparent-Images-Free.png" height="70px" width="70px">
+            <div id="error"></div>
+            <div id="Email" class="c1">
+                <input type="email" id="x1" placeholder="Email" onchange="CheckEmail(this)">
+            </div>
+            <div id="pass" class="c1">
+                <input type="password" id="x2" placeholder="Password" onchange=" checkPass(this)">
+                <script>
+                    checkPass()
+                </script>
+                <span id="eye" onclick="ChangeEye(this)" class="eye"><i class="fas fa-eye-slash"></i></span>
+            </div>
+
+            <br>
+            <div id="span" class="C2">Forgate my password? <a class="click" href="https://www.google.com/">Click here</a></div>
+            <input type="button" class="C2" value="Log In" id="button" onclick="log()">
+
+
+        </div>
+    </div>
+</body>
+
+</html>
